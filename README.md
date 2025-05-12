@@ -2,18 +2,17 @@
 This project showcases automated testing of the DemoQA website using Robot Framework in conjunction with SeleniumLibrary. It serves as a practical example of implementing end-to-end tests for web applications.
 
 📌 Project Overview
-Framework: Robot Framework
-Browser Automation: SeleniumLibrary
-Test Target: DemoQA
-Author: @alineslopes
+- Framework: Robot Framework, 
+- Browser Automation: SeleniumLibrary, 
+- Test Target: DemoQA.
 
 🧰 Prerequisites
 Ensure the following are installed on your system:
 
-Python 3.6+
-pip (Python package installer)
-Google Chrome or another supported browser
-ChromeDriver compatible with your Chrome version
+- Python 3.6+
+- pip (Python package installer)
+- Google Chrome or another supported browser
+- ChromeDriver compatible with your Chrome version
 
 ⚙️ Setup Instructions
 1. Clone the Repository
