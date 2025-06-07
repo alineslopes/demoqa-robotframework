@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20250607 14:16:48.307" rpa="false" schemaversion="4">
+<suite id="s1" name="Check Box Test" source="c:\Users\aline\OneDrive\Área de Trabalho\demoqa-robotframework\tests\check_box_test.robot">
+<test id="s1-t1" name="Test Case 01 - Access the &quot;Checkbox&quot; page" line="8">
+<kw name="Open the browser" library="elements_resource" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20250607 14:16:50.834" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg timestamp="20250607 14:16:54.168" level="WARN">The chromedriver version (125.0.6422.78) detected in PATH at C:\Users\aline\AppData\Local\Programs\Python\Python311\Scripts\chromedriver.exe might not be compatible with the detected chrome version (137.0.7151.69); currently, chromedriver 137.0.7151.68 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20250607 14:16:58.578" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20250607 14:16:58.579" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 125
+Current browser version is 137.0.7151.69 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF75A6D1F22+60322]
+	(No symbol) [0x00007FF75A64CE99]
+	(No symbol) [0x00007FF75A507EBA]
+	(No symbol) [0x00007FF75A546202]
+	(No symbol) [0x00007FF75A5453D8]
+	(No symbol) [0x00007FF75A53EFD7]
+	(No symbol) [0x00007FF75A53AF74]
+	(No symbol) [0x00007FF75A587934]
+	(No symbol) [0x00007FF75A586F90]
+	(No symbol) [0x00007FF75A57BFC3]
+	(No symbol) [0x00007FF75A549617]
+	(No symbol) [0x00007FF75A54A211]
+	GetHandleVerifier [0x00007FF75A9E946D+3301613]
+	GetHandleVerifier [0x00007FF75AA33693+3605267]
+	GetHandleVerifier [0x00007FF75AA29410+3563664]
+	GetHandleVerifier [0x00007FF75A7842F6+790390]
+	(No symbol) [0x00007FF75A6574DF]
+	(No symbol) [0x00007FF75A6533D4]
+	(No symbol) [0x00007FF75A653562]
+	(No symbol) [0x00007FF75A642F6F]
+	BaseThreadInitThunk [0x00007FFD4A78E8D7+23]
+	RtlUserThreadStart [0x00007FFD4C1BC34C+44]
+</msg>
+<status status="FAIL" starttime="20250607 14:16:50.834" endtime="20250607 14:16:58.935"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20250607 14:16:58.935" endtime="20250607 14:16:58.936"/>
+</kw>
+<status status="FAIL" starttime="20250607 14:16:50.832" endtime="20250607 14:16:58.936"/>
+</kw>
+<kw name="Close the browser" library="elements_resource" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20250607 14:16:58.939" endtime="20250607 14:16:58.940"/>
+</kw>
+<status status="PASS" starttime="20250607 14:16:58.938" endtime="20250607 14:16:58.941"/>
+</kw>
+<status status="FAIL" starttime="20250607 14:16:50.831" endtime="20250607 14:16:58.942">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 125
+Current browser version is 137.0.7151.69 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF75A6D1F22+60322]
+	(No symbol) [0x00007FF75A64CE99]
+	(No symbol) [0x00007FF75A507EBA]
+	(No symbol) [0x00007FF75A546202]
+	(No symbol) [0x00007FF75A5453D8]
+	(No symbol) [0x00007FF75A53EFD7]
+	(No symbol) [0x00007FF75A53AF74]
+	(No symbol) [0x00007FF75A587934]
+	(No symbol) [0x00007FF75A586F90]
+	(No symbol) [0x00007FF75A57BFC3]
+	(No symbol) [0x00007FF75A549617]
+	(No symbol) [0x00007FF75A54A211]
+	GetHandleVerifier [0x00007FF75A9E946D+3301613]
+	GetHandleVerifier [0x00007FF75AA33693+3605267]
+	GetHandleVerifier [0x00007FF75AA29410+3563664]
+	GetHandleVerifier [0x00007FF75A7842F6+790390]
+	(No symbol) [0x00007FF75A6574DF]
+	(No symbol) [0x00007FF75A6533D4]
+	(No symbol) [0x00007FF75A653562]
+	(No symbol) [0x00007FF75A642F6F]
+	BaseThreadInitThunk [0x00007FFD4A78E8D7+23]
+	RtlUserThreadStart [0x00007FFD4C1BC34C+44]
+</status>
+</test>
+<doc>This suite tests the DEMOQA site and the Check Box page.</doc>
+<status status="FAIL" starttime="20250607 14:16:48.342" endtime="20250607 14:16:58.949"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Check Box Test">Check Box Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20250607 14:16:54.168" level="WARN">The chromedriver version (125.0.6422.78) detected in PATH at C:\Users\aline\AppData\Local\Programs\Python\Python311\Scripts\chromedriver.exe might not be compatible with the detected chrome version (137.0.7151.69); currently, chromedriver 137.0.7151.68 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
